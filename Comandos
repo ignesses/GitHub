@@ -1,2 +1,13 @@
-git config --global user.name "nombreUsuario"
-git config --global user.email "emailUsuario"
+git config --global user.name "nombreUsuario" : set nombre de usuario.
+git config --global user.email "emailUsuario" : set email de usuario.
+git init : iniciar Git en ese directorio.
+git add . : añadir archivos (el "." añade todos).
+git commit -m "comentarioCommit" : hacer un commit.
+git log : ver todos los commits.
+git remote add origin https:// :
+git clone https:// : clonar un repositorio.
+git push origin master : subir a nuestro repositorio.
+git pull : trar cambios desde el repositorio.
+
+fork
+  --> new pull request
