@@ -20,4 +20,14 @@ fork
   ej. file.log
   
   
-  git commit -m "Caso issue #3303" : Git conecta el commit con el issue en cuestión.
+ git commit -m "Caso issue #3303" : Git conecta el commit con el issue en cuestión.
+ 
+ git branch : te muestra el arbol y dónde estás (*).
+ git branch rama : crea una nueva rama.
+ git checkout rama : me posiciono en esa rama.
+ git merge rama : me hace la unión de las ramas, parado desde la rama que quiero juntar.
+
+// Con ; al final de cada línea puedo hacer varias cosas al mismo tiempo. Ejemplo:
+git add .; git commit -m "Test"
+
+// Q para salir del git log
