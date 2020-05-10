@@ -8,9 +8,11 @@ git add . : añadir archivos (el "." añade todos).
 git add readme.txt : añade ese archivo en particular.
 git commit -m "comentarioCommit" : hacer un commit.
 git log : ver todos los commits.
+  git log --oneline : muestra los commits en una línea.
 git remote add origin https:// : realiza la conexión del repositorio local con el de GitHub.
 git clone https:// : clonar un repositorio.
 git push origin master : subir a nuestro repositorio.
+  git push origin rama : si quiero subir alguna rama en particular.
 git pull : trar cambios desde el repositorio.
 
 fork
@@ -24,6 +26,7 @@ fork
  
  git branch : te muestra el arbol y dónde estás (*).
  git branch rama : crea una nueva rama.
+  git checkout -b rama : crea y me mueve a esa rama.
  git checkout rama : me posiciono en esa rama.
  git merge rama : me hace la unión de las ramas, parado desde la rama que quiero juntar.
 
@@ -31,3 +34,9 @@ fork
 git add .; git commit -m "Test"
 
 // Q para salir del git log
+
+git diff master : compara una rama con otra (desde la rama en la que esté vs master, en este caso)
+git branch -d rama : borrar rama.
+
+touch README.md
+ctrl + k / suelto y v 
