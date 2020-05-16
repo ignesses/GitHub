@@ -40,3 +40,5 @@ git branch -d rama : borrar rama.
 
 touch README.md
 ctrl + k / suelto y v 
+
+git merge --no-ff rama
