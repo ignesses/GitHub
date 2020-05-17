@@ -42,3 +42,13 @@ touch README.md
 ctrl + k / suelto y v 
 
 git merge --no-ff rama
+
+git reset --soft HEAD : 
+git commit --amend -m "comentario" : corrección del nombre del último commit.
+git commit --help : ayuda de ese comando.
+gitk : interfaz visual del commit.
+git rebase -i HEAD~4 : cantidad de últimos commits a unificar.
+  squash : junta esos commits.
+  // ~ (ALT + 126)
+
+// mysql -u root : abrir mysql.
