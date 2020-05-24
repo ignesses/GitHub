@@ -52,3 +52,5 @@ git rebase -i HEAD~4 : cantidad de últimos commits a unificar.
   // ~ (ALT + 126)
 
 // mysql -u root : abrir mysql.
+
+git stash pop : muestra todo lo que está fuera del commit pero que se están siguiendo (en un área temporal).
