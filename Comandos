@@ -53,4 +53,8 @@ git rebase -i HEAD~4 : cantidad de últimos commits a unificar.
 
 // mysql -u root : abrir mysql.
 
+git stash : el área de trabajo vuelva al estado del último commit.
+git stash list : listado del área de trabajo.
 git stash pop : muestra todo lo que está fuera del commit pero que se están siguiendo (en un área temporal).
+
+git add -u : preserva la historia de los archivos que hayan cambiado de nombre.
